@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- UNICONS -->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="assets/style/style.css">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+
+  <title>SWE Personal Portfolio</title>
+</head>
+
+<body>
+
+
+  <!-- Sidebar -->
+  <div class="nav__toggle" id="nav-toggle">
+    <i id="uil" class="uil-bars"></i>
+  </div>
+
+  <aside class="sidebar" id="sidebar">
+    <nav class="nav">
+      <div class="nav__logo">
+        <a href="#home" class="nav__logo-text">M</a>
+      </div>
+
+      <div class="nav__menu">
+
+        <div class="menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Projects</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__socials">
+          <a href="https://www.linkedin.com/in/lorena-zotaj/" target="_blank" class="btn__share">
+            <img src="assets/images/logos/linkedin_logo.png" alt="linkedin_link" class="social__share">
+          </a>
+          <a href="https://github.com/Ajkuna" target="_blank" class="btn__share">
+            <img src="assets/images/logos/github_logo.png" alt="github_link" class="social__share">
+          </a>
+          <a href="https://twitter.com/" target="_blank" class="btn__share">
+            <img src="assets/images/logos/gmail_logo.png" alt="gmail_address" class="social__share">
+          </a>
+        </div>
+
+      </div>
+
+      <div class="nav__close" id="nav-close">
+        <i class="uil uil-times"></i>
+      </div>
+
+    </nav>
+
+  </aside>
+
+  <!-- ======== Main ======== -->
+  <main class="main">
+    
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="home__container container grid">
+        <div class="home__social">
+
+          <div class="home__social-links">
+
+            <a href="https://www.linkedin.com/in/lorena-zotaj/" target="_blank" class="home__social-link">
+              <img src="assets/images/logos/linkedin_logo.png" alt="linkedin_link">
+            </a>
+            <a href="https://github.com/Ajkuna" target="_blank" class="home__social-link">
+              <img src="assets/images/logos/github_logo.png" alt="github_link">
+            </a>
+            <a href="https://twitter.com/" target="_blank" class="home__social-link">
+              <img src="assets/images/logos/gmail_logo.png" alt="gmail_address">
+            </a>
+
+          </div>
+        </div>
+
+        <img src="assets/images/home_img_png.png" alt="" class="home__img">
+
+        <div class="home__data">
+          <h1 class="home__title">Hi, I'm Lorena</h1>
+          <h3 class="home__subtitle">Computer Engineering Student</h3>
+          <p class="home__description">Hey there! I'm currently a student, building knowledge to become a brilliant Software Engineer.
+          </p>
+          <a href="#about" class="button" style="--btnColor:#e78080">
+            <span class="button__text">Get my Resume</span>
+            <i></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+      <h2 data-heading="Get to know me!" class="section__title">About Me</h2>
+
+      <div class="about__container container grid">
+        <img src="assets/images/home_img_png.png" alt="" class="about__img">
+
+        <div class="about__data">
+
+          <h3 class="about__heading">Hi, I'm Lorena Zotaj, currently based in Italy</h3>
+          <p class="about__description">My interest for coding started with <b>videogames</b>, which is also one of my biggest hobbies since I was child!
+          <br>
+          Being so passionate about <b>programming</b> allowed me to expand my knowledge also outside my University classes. In fact, most of my work comes from personal studies and interests!
+          <br><br>
+          Here's a list of <b>technologies</b> I had the chance to work with, so far:
+          </p>
+
+          <!-- Skill List -->
+          <div class="about__info grid">
+
+            <div class="about__box">
+              <img src="assets/images/logos/java_logo.png" alt="java_logo" class="about__icon">
+              <p class="about__title">Java</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/python_logo.png" alt="py_logo" class="about__icon">
+              <p class="about__title">Python</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/kotlin_logo.png" alt="kt_logo" class="about__icon">
+              <p class="about__title">Kotlin</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/mysql_logo.png" alt="mysql_logo" class="about__icon">
+              <p class="about__title">SQL / MySQL</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/javascript_logo.png" alt="js_logo" class="about__icon">
+              <p class="about__title">JavaScript</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/html5_logo.png" alt="html_logo" class="about__icon">
+              <p class="about__title">HTML</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/css3_logo.png" alt="css_logo" class="about__icon">
+              <p class="about__title">CSS</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/android_logo.png" alt="android_logo" class="about__icon">
+              <p class="about__title">Android</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/bootstrap_logo.png" alt="bootstrap_logo" class="about__icon">
+              <p class="about__title">Bootstrap</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/typescript_logo.png" alt="ts_logo" class="about__icon">
+              <p class="about__title">Typescript</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/angular_logo.png" alt="bootstrap_logo" class="about__icon">
+              <p class="about__title">Angular</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/git_logo.png" alt="git_logo" class="about__icon">
+              <p class="about__title">Git</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/nodejs_logo.png" alt="nodejs_logo" class="about__icon">
+              <p class="about__title">Nodejs</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/postman_logo.png" alt="postman_logo" class="about__icon">
+              <p class="about__title">Postman</p>
+            </div>
+
+            <div class="about__box">
+              <img src="assets/images/logos/jenkins_logo.png" alt="jenkins_logo" class="about__icon">
+              <p class="about__title">Jenkins</p>
+            </div>
+
+
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+    <!-- Qualification(s) -->
+    <section class="qualification section">
+      <h2 data-heading="My Journey" class="section__title">Experience and Education</h2>
+
+      <div class="qualification__container container grid">
+
+        <!-- Experience Section -->
+        <div class="experience">
+          <h3 class="qualification__title">
+            <i class="uil uil-suitcase"></i>
+            Experience
+          </h3>
+
+          <div class="timeline">
+
+            <div class="timeline__item">
+              <div class="circle__dot"></div>
+              <h3 class="timeline__title">Junior Salesforce Developer | CPQ Configurator</h3>
+              <p class="timeline__company">Salesforce Industries</p>
+              <p class="timeline__text">Worked on the CPQ capability of the <b>Salesforce Industries SEMEA</b> team.
+                <br>
+                Personal activities included (but not limited to):
+                <br>
+                • <b>Configuration</b> and <b>development</b> of CPQ elements (360°), according to business requirements
+                <br>
+                • <b>Metadata deployment</b> and <b>maintenance</b>, across multiple development environments
+                <br>
+                • <b>Testing</b> through <b>API</b> calls and internal tools
+                <br>
+                • Troubleshooting and <b>bug fixing</b>
+                <br>
+                • Github branch alignments (Jenkins)
+                <br>
+                • Support and project improvements</p>
+              <span class="timeline__date">
+                <i class="uil uil-calendar-alt"></i>
+                April 2022 - July 2022
+              </span>
+            </div>
+
+            <div class="timeline__item">
+              <div class="circle__dot"></div>
+              <h3 class="timeline__title">IT Support Engineer Intern</h3>
+              <p class="timeline__company">Amazon</p>
+              <p class="timeline__text">Worked with the local IT team to implement technical solutions and provide high quality support for <b>computer hardware</b>, <b>operating systems</b> and <b>internal software</b> and tools.
+                <br>
+                Personal tasks included:
+                <br>
+                • <b>Developed</b> and <b>designed</b> a <b>front-end interface</b> for 2 internal tools and websites, speeding up tool <b>usage time</b> by <b>35%</b>
+                <br>
+                • Contributed to implementation discussions on daily meetings
+                <br>
+                • Regularly interacted with management and staff to provide <b>analytical</b> and <b>technical assistance</b> for continuous improvements</p>
+              <span class="timeline__date">
+                <i class="uil uil-calendar-alt"></i>
+                March 2021 - May 2021
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Education Section -->
+        <div class="education">
+          <h3 class="qualification__title">
+            <i class="uil uil-graduation-cap"></i>
+            Education
+          </h3>
+
+          <div class="timeline">
+
+            <div class="timeline__item">
+              <div class="circle__dot"></div>
+              <h3 class="timeline__title">B.Sc. Computer Engineering</h3>
+              <p class="timeline__company">University of Rome Tor Vergata</p>
+              <p class="timeline__text">
+                <b>Cumulative GPA: 26/30</b>
+                <br><br>
+                Relevant Coursework:
+                <br>
+                • Algorithms Engineering
+                <br>
+                • Mobile Programming
+                <br>
+                • Networking and Internet Protocols
+                <br>
+                • Operating Systems
+                <br>
+                • Electronic Computers
+                <br>
+                • Internet Engineering and Web Design
+                <br>
+                • Telecommunications Fundamentals
+
+              </p>
+              <span class="timeline__date">
+                <i class="uil uil-calendar-alt"></i>
+                2019 - present 
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    </section>
+
+
+    <!-- Projects -->
+    <section class="work section" id="work">
+      <h2 data-heading="Personal Projects" class="section__title">Recent Work</h2>
+
+      <div class="work__filters">
+        <span class="work__item active-work" data-filter="all">All</span>
+        <span class="work__item" data-filter=".web">Web</span>
+        <span class="work__item" data-filter=".desktop">Desktop</span>
+        <span class="work__item" data-filter=".mobile">Mobile</span>
+      </div>
+
+      <div class="work__container container grid">
+
+        <div class="work__card mix mobile">
+          <img src="assets/images//thumbnail_sample.png" alt="" class="work__img">
+          <h3 class="work__title">Fiscally</h3>
+          <span class="work__button">
+            Details
+            <img class="work__button__icon" src="assets/images/fullscreen_pink.png" alt="">
+          </span>
+          <div class="portfolio__item-details">
+            <h3 class="details__title">Fiscal Code generation and storage</h3>
+            <p class="details__description">• <b>Mobile app</b> that calculates your <b>fiscal code</b> and stores it, along with its respective barcode (created using the <b>ZXing</b> library).
+            <br>
+            • Includes a local <b>database</b> for storing the various fiscal code entries.  
+            <br><br>
+            <small>(This is currently in progress!)</small>
+            </p>
+            <p>Tech Stack</p>
+            <ul class="details__info">
+                <li class="tech__item">Kotlin</li>
+                <li class="tech__item">Android Studio</li>
+                <li class="tech__item">SQLite</li>
+                <li class="tech__item">ZXing</li>
+                <li class="tech__item">Room</li>
+                <li class="tech__item">Compose</li>
+            </ul>
+            <div class="code__links">
+              <a href="https://github.com/Ajkuna" target="_blank" class="project__link">
+                <img src="assets/images/logos/github_logo_white.png" alt="github_link" class="link__icon">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="work__card mix desktop">
+          <img src="assets/images//thumbnail_sample.png" alt="" class="work__img">
+          <h3 class="work__title">Sorting Visualizer</h3>
+          <span class="work__button">
+            Details
+            <img class="work__button__icon" src="assets/images/fullscreen_pink.png" alt="">
+          </span>
+          <div class="portfolio__item-details">
+            <h3 class="details__title">Popular Sortinng Algorithms Visualizer</h3>
+            <p class="details__description">• Desktop application for visualizing various <b>sorting algorithms</b> (Bubble Sort, Insertion Sort, Selection Sort and Quick Sort)
+            <br>
+            • User friendly interface to allow a proper <b>step-by-step</b> comprehension of each algorithm
+            </p>
+            <p>Tech Stack</p>
+            <ul class="details__info">
+                <li class="tech__item">Python</li>
+                <li class="tech__item">Tkinter</li>
+                <li class="tech__item">Sorting Algorithms</li>
+            </ul>
+            <div class="code__links">
+              <a href="https://github.com/Ajkuna/SortingVisualizer" target="_blank" class="project__link">
+                <img src="assets/images/logos/github_logo_white.png" alt="github_link" class="link__icon">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="work__card mix desktop">
+          <img src="assets/images/project_thumbnails/spaceAdventures(gif).gif" alt="" class="work__img">
+          <h3 class="work__title">Space Adventures</h3>
+          <span class="work__button">
+            Details
+            <img class="work__button__icon" src="assets/images/fullscreen_pink.png" alt="">
+          </span>
+          <div class="portfolio__item-details">
+            <h3 class="details__title">Interactive Arcade Videogame</h3>
+            <p class="details__description">• Arcade-style videogame built using <b>Pygame</b> library.
+              <br>
+              • Includes <b>sound effects</b> and handles <b>objects dynamics</b>.
+            </p>
+            <p>Tech Stack</p>
+            <ul class="details__info">
+                <li class="tech__item">Python</li>
+                <li class="tech__item">Pygame</li>
+            </ul>
+            <div class="code__links">
+              <a href="https://github.com/Ajkuna/SpaceAdventures" target="_blank" class="project__link">
+                <img src="assets/images/logos/github_logo_white.png" alt="github_link" class="link__icon">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="work__card mix web">
+          <img src="assets/images//thumbnail_sample.png" alt="" class="work__img">
+          <h3 class="work__title">Personal Portfolio</h3>
+          <span class="work__button">
+            Details
+            <img class="work__button__icon" src="assets/images/fullscreen_pink.png" alt="">
+          </span>
+          <div class="portfolio__item-details">
+            <h3 class="details__title">Personal SWE Portfolio</h3>
+            <p class="details__description">Built a personal portfolio to better represent who I am and my passion for coding, as well as Web design.
+            <br><br>
+            You're already here, so enjoy your stay! 😊
+            </p>
+            <p>Tech Stack</p>
+            <ul class="details__info">
+                <li class="tech__item">JavaScript</li>
+                <li class="tech__item">HTML</li>
+                <li class="tech__item">CSS</li>
+                <li class="tech__item">Web Design</li>
+            </ul>
+            <div class="code__links">
+              <a href="#home" target="_blank" class="project__link">
+                <img src="assets/images/link_icon_white.png" alt="live_project_link" class="link__icon">
+              </a>
+              <a href="https://github.com/Ajkuna" target="_blank" class="project__link">
+                <img src="assets/images/logos/github_logo_white.png" alt="github_link" class="link__icon">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="work__card mix web">
+          <img src="assets/images//thumbnail_sample.png" alt="" class="work__img">
+          <h3 class="work__title">Budget Calculator</h3>
+          <span class="work__button">
+            Details
+            <img class="work__button__icon" src="assets/images/fullscreen_pink.png" alt="">
+          </span>
+          <div class="portfolio__item-details">
+            <h3 class="details__title">Angular Web App</h3>
+            <p class="details__description">• Simple <b>front-end webpage</b> to keep track of personal incomes and expenses
+            <br>
+            • Made use of <b>Angular Components</b> and <b>Bulma</b> (framework).
+            </p>
+            <p>Tech Stack</p>
+            <ul class="details__info">
+                <li class="tech__item">Angular</li>
+                <li class="tech__item">Typescript</li>
+                <li class="tech__item">HTML</li>
+                <li class="tech__item">CSS</li>
+                <li class="tech__item">Bulma</li>
+            </ul>
+            <div class="code__links">
+              <a href="https://ajkuna.github.io/BudgetCalculator/" target="_blank" class="project__link">
+                <img src="assets/images/link_icon_white.png" alt="live_project_link" class="link__icon">
+              </a>
+              <a href="https://github.com/Ajkuna/BudgetCalculator" target="_blank" class="project__link">
+                <img src="assets/images/logos/github_logo_white.png" alt="github_link" class="link__icon">
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="work__card mix desktop">
+          <img src="assets/images//thumbnail_sample.png" alt="" class="work__img">
+          <h3 class="work__title">Simple Calculator</h3>
+          <span class="work__button">
+            Details
+            <img class="work__button__icon" src="assets/images/fullscreen_pink.png" alt="">
+          </span>
+          <div class="portfolio__item-details">
+            <h3 class="details__title">Java Calculator</h3>
+            <p class="details__description">Very simple calculator desktop app built using <b>Java Swing</b> library.</p>
+            <p>Tech Stack</p>
+            <ul class="details__info">
+                <li class="tech__item">Java</li>
+                <li class="tech__item">Java Swing</li>
+            </ul>
+            <div class="code__links">
+              <a href="https://github.com/Ajkuna/Java-Calculator" target="_blank" class="project__link">
+                <img src="assets/images/logos/github_logo_white.png" alt="github_link" class="link__icon">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+     <!-- Projects Popup Window -->
+     <div class="portfolio__popup">
+      <div class="portfolio__popup-inner">
+        <div class="portfolio__popup-content grid">
+          <span class="portfolio__popup-close">
+            <i class="uil uil-times"></i>
+          </span>
+          <div class="pp_thumbnail">
+            <img src="assets/images/thumbnail_sample.png" alt="" class="portfolio__popup-img">
+          </div>
+          <div class="portfolio__popup-info">
+            <div class="portfolio__popup-subtitle"><span>Project Name</span></div>
+            <div class="portfolio__popup-body">
+              <h3 class="details__title">Project Name and Brief Description</h3>
+              <p class="details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur ullam enim quaerat!</p>
+              <ul class="details__info">
+                Tech Stack
+                <li class="tech__info">Stuff</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+     </div>
+
+    
+    <!-- ======== Footer ======== -->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div class="footer__container container grid">
+
+          <div>
+            <h1 class="footer__title">Mariam</h1>
+            <span class="footer__subtitle">FrontEnd Developer</span>
+          </div>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#home" class="footer__link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="footer__link">About Me</a>
+            </li>
+            <li>
+              <a href="#work" class="footer__link">Projects</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a href="https://www.linkedin.com/in/lorena-zotaj/" target="_blank" class="footer__social">
+              <img src="assets/images/logos/linkedin_logo.png" alt="linkedin_link">
+            </a>
+            <a href="https://github.com/Ajkuna" target="_blank" class="footer__social">
+              <img src="assets/images/logos/github_logo.png" alt="github_link">
+            </a>
+            <a href="https://twitter.com/" target="_blank" class="footer__social">
+              <img src="assets/images/logos/gmail_logo.png" alt="gmail_address">
+            </a>
+          </div>
+
+        </div>
+
+        <p class="footer__copy">&#169; Developed & Designed by <b>Lorena Zotaj</b></p>
+
+      </div>
+    </footer>
+
+
+  </main>
+
+  <!-- ======== Scroll up ======== -->
+
+
+  <!-- ======== Mix-it-up Projects Filter ======== -->
+  <script src="assets/js/mixitup.min.js"></script>
+
+  <!-- ======== Main JS ======== -->
+  <script src="assets/js/main.js"></script>
+  
+</body>
+
+</html>
